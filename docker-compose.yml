@@ -14,7 +14,7 @@ services:
       - NB_GID=100
       - CHOWN_HOME=yes
     volumes:
-      - ../gpu-python-tutorial:/home/jupyternb
+      - ../gpu-python:/home/jupyternb
     working_dir: /home/jupyternb
     ports:
       - '8889:8888'
