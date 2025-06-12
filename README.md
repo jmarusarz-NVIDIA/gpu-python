@@ -9,7 +9,7 @@ Wait for your Brev instance to finish building before proceeding.
 Copy and paste the **“Install the CLI”** command from your Brev instance page into your terminal.
 
 ## 3. Connect to Your Instance
-Under the **“Open a terminal locally”** section, copy your `brev shell <<instance-name>>` command and run it in your terminal.
+Under the **“Open a terminal locally”** section, copy your `brev shell <instance-name>` command and run it in your terminal.
 
 ## 4. Configure Port Forwarding
 - Click the **“Share a Service”** button on your instance.
