@@ -1,4 +1,4 @@
-# 🚀 Getting Started with GPU-Powered JupyterLab on Brev
+# Getting Started with GPU-Powered JupyterLab on Brev🤙
 
 Follow these steps to launch your GPU-enabled JupyterLab environment using Brev.
 
