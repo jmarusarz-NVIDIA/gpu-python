@@ -11,15 +11,16 @@ Copy and paste the **“Install the CLI”** command from your Brev instance pag
 ## 3. Connect to Your Instance
 Under the **“Open a terminal locally”** section, copy your `brev shell <instance-name>` command and run it in your terminal.
 
-## 4. Configure Port Forwarding
+## 4. Start the Docker Container
+Run the following command in your terminal:
+`docker compose up`
+
+## 5. Configure Port Forwarding
 - Click the **“Share a Service”** button on your instance.
 - Set the port to `8889`.
 - Name the service `jupyter`.
 - Delete the default `8888` port.
-
-## 5. Start the Docker Container
-Run the following command in your terminal:
-`docker compose up`
+- Refresh page
 
 Enjoy!
 
