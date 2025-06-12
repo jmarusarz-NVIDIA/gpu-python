@@ -15,7 +15,7 @@ Under the **“Open a terminal locally”** section, copy your `brev shell <inst
 - Click the **“Share a Service”** button on your instance.
 - Set the port to `8889`.
 - Name the service `jupyter`.
-- You may delete the default `8888` port if it’s no longer needed (recommended).
+- Delete the default `8888` port.
 
 ## 5. Start the Docker Container
 Run the following command in your terminal:
