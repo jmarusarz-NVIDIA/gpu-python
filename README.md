@@ -21,6 +21,8 @@ Under the **“Open a terminal locally”** section, copy your `brev shell <inst
 Run the following command in your terminal:
 `docker compose up`
 
+Enjoy!
+
 # GPU development with Python 101 Tutorial
 
 **Welcome to the GPU Development in Python 101 tutorial.**
