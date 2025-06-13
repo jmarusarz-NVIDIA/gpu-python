@@ -17,7 +17,7 @@ services:
       - ../gpu-python:/home/jupyternb
     working_dir: /home/jupyternb
     ports:
-      - '8889:8888'
+      - '8888:8888'
     command: >
       bash -c "
         apt-get update &&
