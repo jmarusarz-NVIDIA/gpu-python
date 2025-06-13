@@ -26,7 +26,7 @@ Run the following command in your terminal:
 `docker compose up`
 
 ## 7. Refresh Brev Page
-Open your notebook and enjoy!
+Refresh the Brev page, open your notebook, and enjoy!
 
 # GPU development with Python 101 Tutorial
 
