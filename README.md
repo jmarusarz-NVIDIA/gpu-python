@@ -5,24 +5,28 @@ Follow these steps to launch your GPU-enabled JupyterLab environment using Brev.
 ## 1. Allow the Instance to Start
 Wait for your Brev instance to finish building before proceeding.
 
-## 2. Install Brev CLI (If Not Already Installed)
-Copy and paste the **“Install the CLI”** command from your Brev instance page into your terminal.
-
-## 3. Connect to Your Instance
-Under the **“Open a terminal locally”** section, copy your `brev shell <instance-name>` command and run it in your terminal.
-
-## 4. Start the Docker Container
-Run the following command in your terminal:
-`docker compose up`
-
-## 5. Configure Port Forwarding
+## 2. Configure Port Forwarding
 - Click the **“Share a Service”** button on your instance.
 - Set the port to `8889`.
 - Name the service `jupyter`.
 - Delete the default `8888` port.
-- Refresh page
 
-Enjoy!
+## 3. Install Brev CLI (If Not Already Installed)
+Copy and paste the **“Install the CLI”** command from your Brev instance page into your terminal.
+
+## 4. Connect to Your Instance
+Under the **“Open a terminal locally”** section, copy your `brev shell <instance-name>` command and run it in your terminal.
+
+## 5. Change into Proper Directory
+Run the following command in your terminal:
+`cd gpu-python/`
+
+## 6. Start the Docker Container
+Run the following command in your terminal:
+`docker compose up`
+
+## 7. Refresh Brev Page
+Open your notebook and enjoy!
 
 # GPU development with Python 101 Tutorial
 
