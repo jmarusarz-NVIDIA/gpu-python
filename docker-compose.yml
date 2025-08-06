@@ -20,8 +20,6 @@ services:
       - '8888:8888'
     command: >
       bash -c '
-        command: >
-      bash -c '
         apt-get update &&
         apt install -y --no-install-recommends gnupg &&
         echo "deb http://developer.download.nvidia.com/devtools/repos/ubuntu2204/amd64 /" | tee /etc/apt/sources.list.d/nvidia-devtools.list &&
