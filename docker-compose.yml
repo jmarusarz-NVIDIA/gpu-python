@@ -19,7 +19,7 @@ services:
     ports:
       - '8888:8888'
     command: >
-      bash -c "
+      bash -c '
         apt-get update &&
         echo "deb http://developer.download.nvidia.com/devtools/repos/ubuntu$(source /etc/lsb-release; echo "$DISTRIB_RELEASE" | tr -d .)/$(dpkg --print-architecture) /" | tee /etc/apt/sources.list.d/nvidia-devtools.list &&
         apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/3bf863cc.pub &&
@@ -31,7 +31,7 @@ services:
         pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124 &&
         pip3 install cudf-cu12 cuml-cu12 dask-cuda dask-cudf-cu12 dask aiohttp requests nvidia-libmathdx-cu12 --extra-index-url=https://pypi.nvidia.com &&
         ln -s /usr/local/cuda*/nvvm/lib64/libnvvm.so /usr/lib/libnvvm.so || true &&
-        jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''"
+        jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=""'
     deploy:
       resources:
         reservations:
